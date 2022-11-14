@@ -1,17 +1,17 @@
 #include <VarSpeedServo.h>  
 
-
+//init servos
 const int servoCount = 8;           
 VarSpeedServo motors[servoCount];  
 
-
+//necessary variables
 int speed = 100;     
 const int angle1 = 30;    
 const int angle0 = 0;   
 int tempwalk=1;
 
 void setup() {
-
+  //attaching servos
   motors[0].attach(5, 900, 2100); 
   motors[1].attach(6, 900, 2100);  
   motors[2].attach(7, 900, 2100); 
@@ -62,6 +62,7 @@ void forward(){
    }
   }
   }
-   tempwalk --;   
-   
+   tempwalk --;     
 } 
+
+//add reverse, left, right, stand and sit functions

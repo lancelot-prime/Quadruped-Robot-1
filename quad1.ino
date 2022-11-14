@@ -11,6 +11,7 @@ const int angle0 = 0;
 int tempwalk=1;
 
 void setup() {
+  Serial.begin(57600);
   //attaching servos
   motors[0].attach(5, 900, 2100); 
   motors[1].attach(6, 900, 2100);  

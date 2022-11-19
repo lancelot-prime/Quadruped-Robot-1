@@ -66,4 +66,4 @@ void forward(){
    tempwalk --;     
 } 
 
-//add reverse, left, right, stand and sit functions
+//add reverse, stand and sit functions

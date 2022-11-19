@@ -28,7 +28,7 @@ void loop() {
 } 
 
 
-void walkForward(){ 
+void forward(){ 
   
   if (tempwalk == 1){ 
   Serial.println("forward");

@@ -1,3 +1,4 @@
+//v3 added the stand and sit function, the bot can now walk forwards, backwards, return to neutral position, and sit
 #include <VarSpeedServo.h>  
 
 

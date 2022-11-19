@@ -1,3 +1,4 @@
+//v2 added reverse function, the bot is now able to move forwards and backwards
 #include <VarSpeedServo.h>  
 
 

@@ -1,4 +1,4 @@
-//added bluetooth control using HC-05 bt module
+//v4 added bluetooth control using HC-05 bt module
 #include <VarSpeedServo.h>  
 
 char command;

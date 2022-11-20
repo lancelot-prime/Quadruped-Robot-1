@@ -1,0 +1,12 @@
+pwm pin servo 0 - front right top - dig. pin 5
+pwm pin servo 1 - front right bottom - dig. pin 6
+pwm pin servo 2 - front left top - dig. pin 7
+pwm pin servo 3 - front left bottom - dig. pin 8
+pwm pin servo 4 - rear right top - dig. pin 9
+pwm pin servo 5 - rear right bottom - dig. pin 10
+pwm pin servo 6 - rear left top - dig. pin 11
+pwm pin servo 7 - rear left bottom - dig. pin 12 ;
+
+do not power the servos through arduino - the voltage regulator can not handle the current.
+connect to a seperate 5V power supply instead;
+

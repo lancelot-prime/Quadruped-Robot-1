@@ -27,7 +27,7 @@ void setup() {
 void loop() {
   while(Serial.available()>0){
   command= Serial.read();
-  
+  Serial.println("command recieved:", command);
   if (command=='F'){
   forward();
   }
